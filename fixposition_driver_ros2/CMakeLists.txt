@@ -28,22 +28,22 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Gnsssats.msg
   msg/NMEA.msg
   msg/WheelSensor.msg
-  msg/fpa/GNSSANT.msg
-  msg/fpa/GNSSCORR.msg
-  msg/fpa/LLH.msg
-  msg/fpa/ODOMENU.msg
-  msg/fpa/ODOMETRY.msg
-  msg/fpa/ODOMSH.msg
-  msg/fpa/TEXT.msg
-  msg/nmea/GPGGA.msg
-  msg/nmea/GPGLL.msg
-  msg/nmea/GNGSA.msg
-  msg/nmea/GPGST.msg
-  msg/nmea/GXGSV.msg
-  msg/nmea/GPHDT.msg
-  msg/nmea/GPRMC.msg
-  msg/nmea/GPVTG.msg
-  msg/nmea/GPZDA.msg
+  msg/GNSSANT.msg
+  msg/GNSSCORR.msg
+  msg/LLH.msg
+  msg/ODOMENU.msg
+  msg/ODOMETRY.msg
+  msg/ODOMSH.msg
+  msg/TEXT.msg
+  msg/GPGGA.msg
+  msg/GPGLL.msg
+  msg/GNGSA.msg
+  msg/GPGST.msg
+  msg/GXGSV.msg
+  msg/GPHDT.msg
+  msg/GPRMC.msg
+  msg/GPVTG.msg
+  msg/GPZDA.msg
   DEPENDENCIES
   std_msgs
   nav_msgs
