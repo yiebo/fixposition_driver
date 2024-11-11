@@ -668,7 +668,7 @@ void PublishNav2Tf(const std::map<std::string, std::shared_ptr<geometry_msgs::ms
         geometry_msgs::msg::TransformStamped tf_odom_base;
         tf_odom_base.header.stamp = rclcpp::Clock().now();
         tf_odom_base.header.frame_id = "odom";
-        tf_odom_base.child_frame_id = "base_link";
+        tf_odom_base.child_frame_id = "base_footprint";
         tf_odom_base.transform = tf2::toMsg(tf_ENU0POISH);
 
         // Send the transform
